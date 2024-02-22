@@ -8,21 +8,24 @@
 }
 
 body{
-    background-color: #ffffff;
+    
+    background: #1f1f23;
+
 }
 
 header{
-    background-color: rgb(255, 255, 255);
+    background-color: #1f1f23;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 4px 2px 3px #17b075;
+    box-shadow: 4px 2px 3px #000000;
     top: 0;
     z-index: 1000;
     width: 100%;
     position: fixed;
     padding: 10px;
     transition: all .50s ease;
+   
 }
 
 .navbar {
@@ -34,7 +37,7 @@ header{
     transition: all .50s ease;
 }
 .logo{
-    color: #070b19;
+    color: #ffffff;
 
     width: auto;
     font-family: 'Poppins', sans-serif;
@@ -45,17 +48,17 @@ header{
 
 a{
     text-decoration: none;
-    color: #0a0c11;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     transition: all .50s ease;
 }
 
 a:hover{
-    text-decoration: underline 2px #17b075;
+    text-decoration: underline 2px #00ff22;
   
 }
 a.active{
-    text-decoration: underline 2px #17b075;
+    text-decoration: underline 2px #ffffff;
 }
 
 .menu-icon{
@@ -64,6 +67,7 @@ a.active{
     cursor: pointer;
     display: none;
     z-index: 10001;
+    color: #00ff22;
 }
 
 
@@ -88,7 +92,7 @@ a.active{
         right: -100%;
         width: 270px;
         height: 30vh;
-        background-color: #17b075;
+        background-color: #000000;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
@@ -112,14 +116,19 @@ a.active{
 .ahmedimg{
     height: 170px;
     border-radius: 50%;
-    border: #17b075 5px solid;
+    border: #00ff22 2px solid;
     box-shadow: 0px 5px 6px black;
     margin: auto;
    display: block;
    transition: all .50s ease;
+  
+}
+.ahmedimg:hover{
+    border-radius: 10px 100px / 120px;
+    transition: 2s;
 }
 .home{
-    color: #0a0c11;
+    color: #ffffff;
    margin: 120px;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
@@ -142,17 +151,20 @@ a.active{
 }
 
 #sociall{
-    color: #000000;
-    border: #17b075 1px solid;
+    color: #ffffff;
+  
     padding: 6px 6px;
-    border-radius: 50%;
+ 
     transition: 1s;
 }
 
 #sociall:hover{
-    background-color: #17b075;
-    transform: translateY(5px);
+    background-color: #00ff22;
+    transform: translatex(5px);
     font-size: 20px;
+    color: #000000;
+    border :#00ff22 1px solid;
+    border-radius: 50% 20% / 10% 40%;
 }
 
 
@@ -160,16 +172,16 @@ a.active{
 .about{
     font-family: 'Poppins', sans-serif;
     text-align: center;
-   
+   color: #ececec;
 }
 
-span{
-    color: #17b075;
+span{ 
+    color: #00ff22;
 }
 .aboutt{
     margin: 30px;
-    color: #000000;
-    text-decoration: underline 5px #17b075;
+    color: #ffffff;
+    text-decoration: underline 5px #00ff22;
 }
 
 
@@ -181,17 +193,19 @@ h3{
 .btn{
     padding: 10px 10px;
    border: none;
-    background-color: #17b075;
-    border-radius: 10px 9px;
+    background-color: #00ff22;
+   border-radius: 14px 160px / 170px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 900;
     transition: 1s;
+    color: #ffffff;
 }
 
 .btn:hover{
     transform: translateY(5px);
-    box-shadow: 0px 0px 10px #17b075;
+    box-shadow: 0px 0px 10px #00ff22;
+    border-radius: 15px;
 }
 
 
@@ -210,39 +224,42 @@ h3{
 .projects{
     font-size: 35px;
     font-family: 'Poppins', sans-serif;
-    text-decoration: underline 5px #17b075;
+    text-decoration: underline 5px #00ff22;
     text-align: center;
     margin-top: 60px;
-    
+    color: #ffffff;
 }
 
 .live{
     margin: auto;
     display: block;
     padding: 8px 18px;
-    border: #17b075 1px solid;
+    border: #00ff22 1px solid;
     font-family: 'Poppins', sans-serif;
-    border-radius: 3px;
+    border-radius: 14px 160px / 170px;
    font-weight: bold;
    text-decoration: none;
-   box-shadow: 0px 0px 9px #17b075;
+   box-shadow: 0px 0px 9px #00ff22;
     margin-top: 10px;
     transition: 1s;
-    background-color: #17b075;
+    background-color: #00ff22;
     text-decoration: none;
+    color: #ffffff;
 }
 
 .live:hover{
     transform: translateY(-5px);
-    background-color: #17b075;
-    box-shadow: 0px 5px 9px #17b075;
+    background-color: #00ff22;
+    box-shadow: 0px 5px 9px #00ff22;
+    border-radius: 15px;
 }
 .contacts{
     font-size: 32px;
     font-family: 'Poppins', sans-serif;
-    text-decoration: underline 5px #17b075;
+    text-decoration: underline 5px #00ff22;
     text-align: center;
     margin-top: 60px;
+    color: #ffffff;
 }
 
 input{
@@ -272,19 +289,19 @@ textarea{
   
 }
 textarea:hover{
-    border: #17b075 2px solid;
+    border: #00ff22 2px solid;
 }
 
 input:hover{
-    border: #17b075 2px solid;
+    border: #00ff22 2px solid;
 
 }
 
 .btnn{
     padding: 10px 10px;
     border: none;
-     background-color: #17b075;
-     border-radius: 10px 9px;
+     background-color: #00ff22;
+     border-radius: 14px 160px / 170px;
      font-family: 'Poppins', sans-serif;
      font-size: 14px;
      font-weight: 900;
@@ -293,18 +310,20 @@ input:hover{
      margin: auto;
      display: block;
      margin-top: 40px;
-     box-shadow: 0px 0px 13px #17b075;
+     box-shadow: 0px 0px 13px #00ff22;
   margin-bottom: 25px;
+  color: #ffffff;
 
 }
 
 .btnn:hover{
     transform: translateY(-5px);
+    border-radius: 10px;
 }
 
 
 footer{
-    background-color: #17b075;
+    background-color: #00ff22;
     height: 170px;
     padding: 10px;
     text-align: center;
